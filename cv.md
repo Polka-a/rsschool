@@ -55,7 +55,7 @@ function sumTriangularNumbers(n) {
 ### Courses: ###
 
 * HTML, CSS, JS Tutorials on the Code Basics (completed)
-* The Complete JavaScript Course for beginners by Bogdan Stashchuk (completed)
+* «The Complete JavaScript Course for beginners» by Bogdan Stashchuk (completed)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (completed)
 * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
