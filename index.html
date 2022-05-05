@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/file.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+
+<body>
+
+    <div class="header__wrapper">
+        <div class="wrapper">
+            <header class="header">
+                <nav>
+                    <ul class="header__nav">
+                        <li><a href="#contacts"> Contacts</a></li>
+                        <li><a href="#about"> About me</a></li>
+                        <li><a href="#skills"> Skills</a></li>
+                        <li><a href="#code">Code example</a> </li>
+                        <li><a href="#courses"> Courses</a></li>
+                        <li><a href="#languages"> Languages</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div class="main__wrapper">
+        <div class="wrapper">
+            <div class="main" id="contacts">
+                <div class="offer">
+                    <h1>Polina Samovich</h1>
+                    <p class="offer__p">Front-end Developer</p>
+                    <div class="icones">
+                        <div class="icon__str">
+                            <img src="assets/telephone.svg" alt="telephone" class="icone">
+                            <a href="tel:+375336054462"> <p>+375 (33) 605-44-62</p></a>
+                        </div>
+                        <div class="icon__str">
+                            <img src="assets/telegram.svg" alt="telegram" class="icone">
+                            <a href="tg://resolve?domain=polina_avi"> <p>@polina_avi</p></a>
+                        </div>
+                        <div class="icon__str">
+                            <img src="assets/message.svg" alt="message" class="icone">
+                            <a href="mailto:Samovich-Voronina@yandex.by"><p>Samovich-Voronina@yandex.by</p></a> 
+                        </div>
+                    </div>
+                    <div class="main__quote">
+                        <div class="rec"></div>
+                        <p>My strengths are: quick memorization of the material, <br>
+                            a love of solving difficulties, an analytical mindset.</p>
+                    </div>
+
+                </div>
+                <div class="photo">
+                    <img src="assets/photo.jpg" alt="polina samovich" class="me">
+                </div>
+            </div>
+            <div class="flex__container">
+                <div class="quote" id="about">
+                    <img src="assets/straight-quotes.png" alt="quotes" class="quotes__1">
+                    <div class="qoute__text">
+                        <p>My path in IT started with studying web design, after which I realized that I <br>
+                            wanted to influence the creation of the site in a direct way.
+                        </p>
+                        <p>My goal at the moment is to successfully complete the Frontend Developer<br>
+                            course and continue to work in this direction.
+                        </p>
+                    </div>
+                    <img src="assets/straight-quotes (1).png" alt="quotes" class="quotes__2 ">
+                </div>
+                <div class="skills" id="skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                    <div class="border"></div>
+                </div>
+            </div>
+            <div class="code" id="code">
+                <p>Sum of Triangular Numbers from CODEWARS: <br>
+                    Return the sum of Triangular Numbers up-to-and-including the nth Triangular Number.</p>
+                <pre class="hljs"
+                    style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">function sumTriangularNumbers(n) {
+  <span class="hljs-keyword" style="font-weight: 700;">if</span> (n &lt; <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>) {
+    <span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span> 
+  }
+  
+  <span class="hljs-keyword" style="font-weight: 700;">var</span> <span class="hljs-literal" style="color: rgb(120, 169, 96);">result</span> = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;
+  <span class="hljs-keyword" style="font-weight: 700;">let</span> tr;
+  <span class="hljs-keyword" style="font-weight: 700;">let</span> i = n;
+  
+  <span class="hljs-keyword" style="font-weight: 700;">while</span> ( i &gt;= <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>) {
+  tr = (i/<span class="hljs-number" style="color: rgb(136, 0, 0);">2</span>) * (i + <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>) 
+  i = i - <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>;
+  <span class="hljs-literal" style="color: rgb(120, 169, 96);">result</span> = <span class="hljs-literal" style="color: rgb(120, 169, 96);">result</span> + tr; 
+  }
+  
+  <span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-literal" style="color: rgb(120, 169, 96);">result</span>; 
+};</pre>
+            </div>
+            <div class="courses" id="courses">
+                <ul>
+                    <li><span class="courses__p">HTML, CSS, JS Tutorials on the Code Basics (completed)</span>
+                    </li>
+                    <li><span class="courses__p">«The Complete JavaScript Course for beginners» by Bogdan Stashchuk
+                            (completed)
+                        </span> </li>
+                    <li><span class="courses__p">RS Schools Course «JavaScript/Front-end. Stage 0» (completed)
+                        </span> </li>
+                    <li><span class="courses__p">RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="languages" id="languages">
+                <ul>
+                    <li><span class="courses__p">English - Intermidiate</span>
+                    </li>
+                    <li><span class="courses__p"> Russian - Native</span> </li>
+                    <li><span class="courses__p">Belarusin - Native </span> </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <img src="assets/rs.png" alt="rs_logo">
+                <p>PolVor: Курс «JavaScript/Front-end» 26-07-2021</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
