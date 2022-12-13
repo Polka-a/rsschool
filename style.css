@@ -8,6 +8,10 @@ body {
 
 }
 
+:root {
+  --color-primary: #b6d45d;
+}
+
 .wrapper {
     max-width: 1070px;
     margin: 0 auto;
@@ -24,7 +28,7 @@ body {
 
 .header__wrapper {
     width: 100%;
-    background-color: #D8F681;
+    background-color: var(--color-primary);
 }
 
 .header__nav {
@@ -69,15 +73,15 @@ li a {
 }
 
 h1 {
-    font-size: 40 px;
+    font-size: 40px;
     color: black;
     font-weight: 400;
     margin-bottom: 0;
-    padding-bottom: 0
+    padding-bottom: 0;
 }
 
 .offer__p {
-    font-size: 20x;
+    font-size: 20px;
     color: black;
     padding-bottom: 50px;
 }
@@ -121,6 +125,15 @@ h1 {
     background-repeat: no-repeat;
 
 }
+
+.icone__education {
+    background-image: url(assets/icones/education.svg);
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+
+}
 .icones {
     display: flex;
     flex-direction: column;
@@ -133,7 +146,7 @@ h1 {
 }
 .icon__str a:hover{
    
-   color: #D8F681;
+   color: var(--color-primary);
    font-weight: 600;
     content: "";
     transition: 0.3s ease-out;
@@ -147,8 +160,8 @@ h1 {
 
 .rec {
     height: 48px;
-    width: 8px;
-    background-color: #D8F681;
+    width: 5px;
+    background-color: var(--color-primary);
     margin-right: 30px;
 }
 
@@ -167,10 +180,15 @@ h1 {
     width: 350px;
     border-radius: 50%;
     overflow: hidden;
+
 }
 .me {
     width: 100%;
     height: auto;
+    position: relative;
+    bottom: 80px;
+
+
  
 }
 
@@ -229,7 +247,7 @@ h1 {
 .border {
     height: 4px;
     width: 370px;
-    background-color: #D8F681;
+    background-color: var(--color-primary);
 }
 
 .skills {
@@ -254,9 +272,26 @@ margin-bottom: 70px;
     margin-top: 80px;
 }
 .courses li {
-    color: #D8F681;
+    color: var(--color-primary);
    
 }
+
+ 
+a.courses__link {
+   text-decoration:none;
+     color: black;
+     position: relative;
+    border-bottom: none;
+}
+
+a.courses__link:hover {
+    color: var(--color-primary);
+    font-weight: 600;
+    content: "";
+    transition: 0.3s ease-out;
+}
+
+
 .courses__p {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -272,7 +307,7 @@ margin-bottom: 70px;
     margin-top: 80px;
 }
 .languages li {
-    color: #D8F681;
+    color: var(--color-primary);
    
 }
 .footer p {
@@ -286,4 +321,21 @@ margin-bottom: 70px;
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+}
+.footer a {
+     text-decoration:none;
+     color: black;
+     position: relative;
+    border-bottom: none;
+}
+
+ a.footer__link:hover {
+    color: var(--color-primary);
+   font-weight: 600;
+    content: "";
+    transition: 0.3s ease-out;
+}
+.rs_logo {
+    height: 50px; 
+    width: 100px;
 }
