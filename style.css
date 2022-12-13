@@ -94,12 +94,33 @@ h1 {
 
 }
 
-.icone {
-    width: 17px;
-    height: 17px;
+
+
+.icone__telephone {
+    background-image: url(assets/icones/telephone.svg);
+    width: 20px;
+    height: 20px;
     padding-right: 20px;
+    background-repeat: no-repeat;
+
+}
+.icone__email {
+    background-image: url(assets/icones/email.svg);
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+
 }
 
+.icone__telegram {
+    background-image: url(assets/icones/telegram.svg);
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+
+}
 .icones {
     display: flex;
     flex-direction: column;
@@ -161,16 +182,24 @@ h1 {
     align-items: center;
 }
 
-.quotes__1 {
+.quotes__left {
     align-self: flex-start;
-    height: 16px;
-    width: 16px;
+    background-image: url(assets/icones/quotes.svg);
+    background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
 }
 
-.quotes__2 {
+.quotes__right {
+  transform: scale(-1, -1);
     align-self: flex-end;
-    height: 16px;
-    width: 16px;
+    background-size: 20px 20px;
+     height: 20px;
+    width: 20px;
+   
+    background-image: url(assets/icones/quotes.svg);
+    background-repeat: no-repeat;
 }
 
 .quote {
