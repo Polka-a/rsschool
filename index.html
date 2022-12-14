@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +23,7 @@
             <header class="header">
                 <nav>
                     <ul class="header__nav">
-                        <li><a href="#contacts"> Contacts</a></li>
+                        <li><a href="#contacts" > Contacts</a></li>
                         <li><a href="#about"> About me</a></li>
                         <li><a href="#skills"> Skills</a></li>
                         <li><a href="#code">Code example</a> </li>
@@ -40,16 +43,20 @@
                     <p class="offer__p">Front-end Developer</p>
                     <div class="icones">
                         <div class="icon__str">
-                            <img src="assets/telephone.svg" alt="telephone" class="icone">
+                            <div class="icone__telephone"></div>
                             <a href="tel:+375336054462"> <p>+375 (33) 605-44-62</p></a>
                         </div>
                         <div class="icon__str">
-                            <img src="assets/telegram.svg" alt="telegram" class="icone">
+                            <div class="icone__telegram"></div>
                             <a href="tg://resolve?domain=polina_avi"> <p>@polina_avi</p></a>
                         </div>
                         <div class="icon__str">
-                            <img src="assets/message.svg" alt="message" class="icone">
+                            <div class="icone__email"></div>
                             <a href="mailto:Samovich-Voronina@yandex.by"><p>Samovich-Voronina@yandex.by</p></a> 
+                        </div> <br>
+                          <div class="icon__str">
+                            <div class="icone__education"></div>
+                            <a href="http://www.buk.by/"> <p>Education: Art criticism, Belarusian State University of Culture and Arts</p></a>
                         </div>
                     </div>
                     <div class="main__quote">
@@ -60,12 +67,12 @@
 
                 </div>
                 <div class="photo">
-                    <img src="assets/photo.jpg" alt="polina samovich" class="me">
+                    <img src="assets/photo/polina.jpg" alt="polina samovich" class="me">
                 </div>
             </div>
             <div class="flex__container">
                 <div class="quote" id="about">
-                    <img src="assets/straight-quotes.png" alt="quotes" class="quotes__1">
+                    <div class="quotes__left"></div>
                     <div class="qoute__text">
                         <p>My path in IT started with studying web design, after which I realized that I <br>
                             wanted to influence the creation of the site in a direct way.
@@ -74,8 +81,9 @@
                             course and continue to work in this direction.
                         </p>
                     </div>
-                    <img src="assets/straight-quotes (1).png" alt="quotes" class="quotes__2 ">
+                    <div class="quotes__right"></div>
                 </div>
+            </div>
                 <div class="skills" id="skills">
                     <ul>
                         <li>HTML</li>
@@ -87,7 +95,7 @@
                     </ul>
                     <div class="border"></div>
                 </div>
-            </div>
+           
             <div class="code" id="code">
                 <p>Sum of Triangular Numbers from CODEWARS: <br>
                     Return the sum of Triangular Numbers up-to-and-including the nth Triangular Number.</p>
@@ -102,7 +110,7 @@
   <span class="hljs-keyword" style="font-weight: 700;">let</span> i = n;
   
   <span class="hljs-keyword" style="font-weight: 700;">while</span> ( i &gt;= <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>) {
-  tr = (i/<span class="hljs-number" style="color: rgb(136, 0, 0);">2</span>) * (i + <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>) 
+  tr = (i / <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span>) * (i + <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>) 
   i = i - <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>;
   <span class="hljs-literal" style="color: rgb(120, 169, 96);">result</span> = <span class="hljs-literal" style="color: rgb(120, 169, 96);">result</span> + tr; 
   }
@@ -112,14 +120,13 @@
             </div>
             <div class="courses" id="courses">
                 <ul>
-                    <li><span class="courses__p">HTML, CSS, JS Tutorials on the Code Basics (completed)</span>
+                    <li><span class="courses__p"><a href="https://code-basics.com/ru" class="courses__link">HTML, CSS, JS Tutorials on the Code Basics (completed)</a></span>
                     </li>
-                    <li><span class="courses__p">«The Complete JavaScript Course for beginners» by Bogdan Stashchuk
-                            (completed)
+                    <li><span class="courses__p"><a href="https://stashchuk.com/javascript-ru" class="courses__link">«The Complete JavaScript Course for beginners» by Bogdan Stashchuk (completed)
+                       </a> </span> </li>
+                    <li><span class="courses__p"><a href="https://rs.school/js-stage0/" class="courses__link"> RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</a>
                         </span> </li>
-                    <li><span class="courses__p">RS Schools Course «JavaScript/Front-end. Stage 0» (completed)
-                        </span> </li>
-                    <li><span class="courses__p">RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</span>
+                    <li><span class="courses__p"><a href="https://rs.school/js/" class="courses__link">RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</a></span>
                     </li>
                 </ul>
             </div>
@@ -128,17 +135,19 @@
                     <li><span class="courses__p">English - Intermidiate</span>
                     </li>
                     <li><span class="courses__p"> Russian - Native</span> </li>
-                    <li><span class="courses__p">Belarusin - Native </span> </li>
+                    <li><span class="courses__p">Belarusian - Native </span> </li>
                 </ul>
+              
             </div>
             <div class="footer">
-                <img src="assets/rs.png" alt="rs_logo">
-                <p>PolVor: Курс «JavaScript/Front-end» 26-07-2021</p>
+                <a href ="https://rs.school/js-stage0/" class="footer__link"><img src="assets/photo/rs-school__logo.jpg" alt="rs_logo" class="rs_logo"></a>
+                <p> <a href="https://github.com/Polka-a" class="footer__link"> Polka-a </a> : <a href ="https://rs.school/js-stage0/" class="footer__link"> Курс «JavaScript/Front-end» 05-12-2022 </a></p>
             </div>
         </div>
     </div>
+  
 
-    </div>
+
 
 
 </body>
