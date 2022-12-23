@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap");
 
 body {
@@ -86,7 +86,7 @@ h1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-    margin-top: 30px;
+  margin-top: 30px;
   text-align: center;
   border-radius: 10px;
   width: 158px;
@@ -105,4 +105,114 @@ h1 {
 }
 .main__grow_text {
   padding-left: 220px;
+}
+.main__professional {
+  margin: 0 auto;
+  width: 1440px;
+  height: 670px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.wrapper__main_professional {
+  width: 1220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.wrapper__main_professional h2 {
+  color: #499a18;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+h2 span {
+  color: #e06733;
+}
+.wrapper__main_professional p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+  width: 610px;
+}
+.wrapper__main_professional img {
+  width: 460px;
+  height: 480px;
+  padding-bottom: 100px;
+}
+.main__service {
+  margin: 0 auto;
+  width: 1440px;
+  height: 1330px;
+  background-color: #edf2ec;
+  display: flex;
+}
+.wrapper__main_service {
+  width: 1220px;
+  margin: 0 auto;
+  
+}
+.wrapper__main_service h2 {
+  color: #499a18;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  padding-right: 140px;
+}
+.wrapper__main_service button {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  width: 160px;
+  height: 50px;
+  margin: 0;
+  margin-left: 30px;
+  background-color: #edf2ec;
+}
+.servese__flex_container {
+  display: flex;
+  align-items: center;
+}
+.servese__flex_container_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.servese__card {
+  height: 450px;
+  width: 330px;
+  border-radius: 20px;
+  border: 1px solid #e3e1d5;
+}
+.servese__card h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e06733;
+  text-align: center;
+}
+
+.servese__card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+  text-align: center;
 }
