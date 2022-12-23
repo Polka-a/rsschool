@@ -65,13 +65,16 @@ h1 {
   line-height: 50px;
   color: #717171;
 }
+
 .main__grow_plants {
   color: #499a18;
 }
+
 .main__grow_img {
   width: 400px;
   height: 400px;
 }
+
 .main__grow_text p {
   font-family: "Inter";
   font-style: normal;
@@ -80,6 +83,7 @@ h1 {
   line-height: 35px;
   color: #636060;
 }
+
 .main__grow button {
   color: #000;
   font-family: "Inter";
@@ -94,6 +98,7 @@ h1 {
   border: 2px solid #e06733;
   background-color: #edf2ec;
 }
+
 .wrapper__main {
   width: 1220px;
   margin: 0 auto;
@@ -103,9 +108,11 @@ h1 {
   flex-wrap: nowrap;
   padding-bottom: 100px;
 }
+
 .main__grow_text {
   padding-left: 220px;
 }
+
 .main__professional {
   margin: 0 auto;
   width: 1440px;
@@ -114,6 +121,7 @@ h1 {
   display: flex;
   align-items: center;
 }
+
 .wrapper__main_professional {
   width: 1220px;
   display: flex;
@@ -121,6 +129,7 @@ h1 {
   justify-content: space-between;
   margin: 0 auto;
 }
+
 .wrapper__main_professional h2 {
   color: #499a18;
   font-family: "Inika";
@@ -129,9 +138,11 @@ h1 {
   font-size: 40px;
   line-height: 52px;
 }
+
 h2 span {
   color: #e06733;
 }
+
 .wrapper__main_professional p {
   font-family: "Inter";
   font-style: normal;
@@ -141,11 +152,13 @@ h2 span {
   color: #636060;
   width: 610px;
 }
+
 .wrapper__main_professional img {
   width: 460px;
   height: 480px;
   padding-bottom: 100px;
 }
+
 .main__service {
   margin: 0 auto;
   width: 1440px;
@@ -153,11 +166,12 @@ h2 span {
   background-color: #edf2ec;
   display: flex;
 }
+
 .wrapper__main_service {
   width: 1220px;
   margin: 0 auto;
-  
 }
+
 .wrapper__main_service h2 {
   color: #499a18;
   font-family: "Inika";
@@ -167,6 +181,7 @@ h2 span {
   line-height: 52px;
   padding-right: 140px;
 }
+
 .wrapper__main_service button {
   font-family: "Inika";
   font-style: normal;
@@ -182,21 +197,27 @@ h2 span {
   margin-left: 30px;
   background-color: #edf2ec;
 }
+
 .servese__flex_container {
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
+
 .servese__flex_container_cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .servese__card {
   height: 450px;
   width: 330px;
   border-radius: 20px;
   border: 1px solid #e3e1d5;
+  margin-bottom: 30px;
 }
+
 .servese__card h3 {
   font-family: "Inter";
   font-style: normal;
@@ -215,4 +236,79 @@ h2 span {
   line-height: 20px;
   color: #717171;
   text-align: center;
+}
+
+.main__prices {
+  width: 1440px;
+  height: 560px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.wrapper__prices {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.wrapper__prices h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000;
+}
+
+.prices__cards {
+  height: 280px;
+  width: 330px;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.prices__cards button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 250px;
+  height: 50px;
+  background: #edf2ec;
+  border-radius: 20px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
+
+.prices__cards_arrow {
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+
+}
+
+.prices__cards_arrow img {
+
+  margin: auto;
+  position: relative;
+  width: 10px;
+  height: 5px;
+}
+
+.prices__button_cointainer {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
