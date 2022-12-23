@@ -1,62 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap");
 
 body {
-    font-family: 'Inter', sans-serif;
-    color: #636060;
-    font-size: 20px;
-
+  font-family: "Inter", sans-serif;
+  color: #636060;
+  font-size: 20px;
 }
 
 .wrapper__header {
-    margin: auto;
-    width: 1440px;
-    background-color: #EDF2EC;
-
-
+  margin: auto;
+  width: 1440px;
+  background-color: #edf2ec;
 }
 
 .header {
-
-    margin: auto;
-    width: 1220px;
-    height: 134px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: auto;
+  width: 1220px;
+  height: 134px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    display: flex;
-    font-family: 'Inika', serif;
-    font-size: 16px;
-    color: black;
-    padding-left: 10px;
-    align-items: center;
-
-
+  display: flex;
+  font-family: "Inika", serif;
+  font-size: 16px;
+  color: black;
+  padding-left: 10px;
+  align-items: center;
 }
 
 .logo__img {
-    height: 20px;
-    width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .header__nav {
-    width: 450px;
-    font-family: 'Inika', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+  width: 450px;
+  font-family: "Inika", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header__nav li {
-    list-style-type: none;
-    display: inline;
-    padding: 10px;
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
 }
 
 .main__grow {
-    margin: 0 auto;
-    width: 1440px;
-    background-color: #EDF2EC;
+  margin: 0 auto;
+  width: 1440px;
+  background-color: #edf2ec;
+  height: 530px;
+  display: flex;
+}
+
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+.main__grow_plants {
+  color: #499a18;
+}
+.main__grow_img {
+  width: 400px;
+  height: 400px;
+}
+.main__grow_text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+}
+.main__grow button {
+  color: #000;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+    margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+  width: 158px;
+  height: 44px;
+  border: 2px solid #e06733;
+  background-color: #edf2ec;
+}
+.wrapper__main {
+  width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding-bottom: 100px;
+}
+.main__grow_text {
+  padding-left: 220px;
 }
