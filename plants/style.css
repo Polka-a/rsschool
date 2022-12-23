@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #636060;
+    font-size: 20px;
+
+}
+
+.wrapper__header {
+    margin: auto;
+    width: 1440px;
+    background-color: #EDF2EC;
+
+
+}
+
+.header {
+
+    margin: auto;
+    width: 1220px;
+    height: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+    align-items: center;
+
+
+}
+
+.logo__img {
+    height: 20px;
+    width: 20px;
+}
+
+.header__nav {
+    width: 450px;
+    font-family: 'Inika', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+.main__grow {
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #EDF2EC;
+}
