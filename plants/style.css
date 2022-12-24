@@ -248,6 +248,9 @@ h2 span {
 .wrapper__prices {
   width: 1220px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .wrapper__prices h2 {
@@ -288,17 +291,15 @@ h2 span {
 }
 
 .prices__cards_arrow {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 100px;
   width: 16px;
   height: 16px;
   display: flex;
   align-items: center;
-
 }
 
 .prices__cards_arrow img {
-
   margin: auto;
   position: relative;
   width: 10px;
@@ -310,5 +311,142 @@ h2 span {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.prices__flex_2 h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000;
+  text-align: right;
+  margin-top: 38px;
+}
+.prices__flex_2 span {
+  color: #499a18;
+}
 
+.prices__flex_2 button {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  width: 160px;
+  height: 50px;
+  margin: 0;
+  margin-left: 30px;
+  background-color: #fff;
+  margin-bottom: 38px;
+}
+.prices__flex_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.prices__flex_2 img {
+  width: 152px;
+  height: 170px;
+}
+.main__contact {
+  width: 1440px;
+  background-color: #edf2ec;
+  height: 550px;
+  margin: 0 auto;
+}
+.wrapper__contact {
+  width: 1220px;
+  margin: 0 auto;
+}
+.wrapper__contact img {
+  width: 400px;
+  height: 496px;
+}
+.wrapper__contact {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper__contact h2 {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+}
+.wrapper__contact button {
+  margin-top: 140px;
+  display: flex;
+  background: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #717171;
+  letter-spacing: 0.05em;
+  border: none;
+  width: 450px;
+  height: 50px;
+  display: flex;
+}
+.contact__button_container {
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact__button_arrow {
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  border: none;
+  background: #aea1a1;
+  display: flex;
+  align-items: center;
+}
+.contact__button_arrow img {
+  width: 10px;
+  height: 5px;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 0 auto;
+  width: 1440px;
+  background-color: #fff;
+  height: 130px;
+}
+.wrapper__footer {
+  margin: 0 auto;
+  width: 1220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__rights {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000;
+  display: flex;
+  width: 169px;
+  justify-content: space-between;
+}
+.footer__socials img {
+  height: 26px;
+  width:26px;
+  padding-right: 15px;
+}
+.footer__socials li {
+  list-style: none;
+  display: inline;
 }
