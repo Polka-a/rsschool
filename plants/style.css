@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap");
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -13,14 +12,16 @@ body {
 }
 
 .wrapper__header {
-  margin: auto;
+  margin: 0 auto;
   width: 1440px;
   background-color: #edf2ec;
+
 }
 
 .header {
-  margin: auto;
-  width: 1220px;
+
+  margin: 0 auto;
+  width: 1230px;
   height: 134px;
   display: flex;
   justify-content: space-between;
@@ -32,11 +33,13 @@ a {
   text-decoration: none;
   color: #010201;
 }
+
 a:hover {
   color: #e06733;
   content: "";
   transition: 0.2s ease-out;
 }
+
 button:hover {
   background-color: #e06733 !important;
   color: #fff !important;
@@ -44,19 +47,22 @@ button:hover {
   transition: 0.2s ease-out;
   cursor: pointer;
 }
+
 .prices__cards button:hover {
-  background-color: #C1E698 !important;
+  background-color: #c1e698 !important;
   color: #717171 !important;
   content: "";
   transition: 0.2s ease-out;
   cursor: pointer;
 }
+
 .wrapper__contact button:hover {
-  background-color: #C1E698 !important;
+  background-color: #c1e698 !important;
   color: #717171 !important;
   content: "";
   transition: 0.2s ease-out;
 }
+
 .logo {
   display: flex;
   font-family: "Inika", serif;
@@ -70,20 +76,22 @@ button:hover {
   height: 20px;
   width: 20px;
 }
-a:hover {
-}
 
 .header__nav {
-  width: 450px;
+
   font-family: "Inika", sans-serif;
   font-size: 16px;
   font-weight: 400;
+
+
 }
 
 .header__nav li {
+
   list-style-type: none;
   display: inline;
-  padding: 10px;
+  padding-right: 19px;
+  padding-left: 19px;
 }
 
 .main__grow {
@@ -108,11 +116,14 @@ h1 {
 }
 
 .main__grow_img {
-  width: 400px;
-  height: 400px;
+
+  margin-left: 4px;
+  width: 442px;
+  height: 422px;
 }
 
 .main__grow_text p {
+  padding-top: 6px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -137,17 +148,20 @@ h1 {
 }
 
 .wrapper__main {
-  width: 1220px;
+
+  width: 1230px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
-  padding-bottom: 100px;
+
 }
 
 .main__grow_text {
+  margin-left: 10px;
   padding-left: 220px;
+  margin-bottom: 30px;
 }
 
 .main__professional {
@@ -194,12 +208,13 @@ h2 span {
   width: 460px;
   height: 480px;
   padding-bottom: 100px;
+  margin-top: 95px;
 }
 
 .main__service {
   margin: 0 auto;
   width: 1440px;
-  height: 1330px;
+  height: 1299px;
   background-color: #edf2ec;
   display: flex;
 }
@@ -217,6 +232,7 @@ h2 span {
   font-size: 40px;
   line-height: 52px;
   padding-right: 140px;
+  padding-top: 3px;
 }
 
 .wrapper__main_service button {
@@ -233,18 +249,22 @@ h2 span {
   margin: 0;
   margin-left: 30px;
   background-color: #edf2ec;
+
+
 }
 
 .servese__flex_container {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+
 }
 
 .servese__flex_container_cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 43px;
+  height: 1010px;
 }
 
 .servese__card {
@@ -263,6 +283,8 @@ h2 span {
   line-height: 20px;
   color: #e06733;
   text-align: center;
+
+
 }
 
 .servese__card p {
@@ -297,6 +319,7 @@ h2 span {
   font-size: 40px;
   line-height: 48px;
   color: #000;
+  padding-bottom: 30px;
 }
 
 .prices__cards {
@@ -308,6 +331,7 @@ h2 span {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .prices__cards button {
@@ -325,6 +349,7 @@ h2 span {
   font-size: 20px;
   line-height: 20px;
   color: #000;
+
 }
 
 .prices__cards_arrow {
@@ -349,6 +374,7 @@ h2 span {
   align-items: center;
   justify-content: space-between;
 }
+
 .prices__flex_2 h2 {
   font-family: "Inter";
   font-style: normal;
@@ -359,6 +385,7 @@ h2 span {
   text-align: right;
   margin-top: 38px;
 }
+
 .prices__flex_2 span {
   color: #499a18;
 }
@@ -379,33 +406,45 @@ h2 span {
   background-color: #fff;
   margin-bottom: 38px;
 }
+
 .prices__flex_2 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+
 }
+
 .prices__flex_2 img {
   width: 152px;
   height: 170px;
+
 }
+
 .main__contact {
   width: 1440px;
   background-color: #edf2ec;
   height: 550px;
   margin: 0 auto;
 }
+
 .wrapper__contact {
   width: 1220px;
   margin: 0 auto;
+
 }
+
 .wrapper__contact img {
   width: 400px;
   height: 496px;
+  margin-top: 53px;
 }
+
 .wrapper__contact {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
+
 .wrapper__contact h2 {
   font-family: "Inika";
   font-style: normal;
@@ -413,7 +452,10 @@ h2 span {
   font-size: 40px;
   line-height: 52px;
   color: #499a18;
+  margin-top: 57px;
+  margin-left: 43px;
 }
+
 .wrapper__contact button {
   margin-top: 140px;
   display: flex;
@@ -430,43 +472,38 @@ h2 span {
   border: none;
   width: 450px;
   height: 50px;
-  display: flex;
+  position: relative;
+  padding-left: 20px;
 }
-.contact__button_container {
-  margin: 0 auto;
-  width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.contact__button_container img {
+
+height: 16px;
+width: 16px;
 }
-.contact__button_arrow {
-  width: 16px;
-  height: 16px;
-  border-radius: 100px;
-  border: none;
-  background: #aea1a1;
-  display: flex;
-  align-items: center;
-}
-.contact__button_arrow img {
-  width: 10px;
-  height: 5px;
-  margin: 0 auto;
-}
+
+
+
 
 footer {
   margin: 0 auto;
   width: 1440px;
   background-color: #fff;
   height: 130px;
+  margin-top: 15px;
 }
+
 .wrapper__footer {
+
   margin: 0 auto;
   width: 1220px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+
+
 .footer__rights {
   font-family: "Inter";
   font-style: normal;
@@ -478,11 +515,14 @@ footer {
   width: 169px;
   justify-content: space-between;
 }
+
 .footer__socials img {
-  height: 26px;
-  width: 26px;
+  height: 30px;
+  width: 30px;
   padding-right: 15px;
+  margin-top: 10px;
 }
+
 .footer__socials li {
   list-style: none;
   display: inline;
