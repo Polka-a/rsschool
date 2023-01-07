@@ -334,10 +334,8 @@ h2 span {
   margin-bottom: 20px;
 }
 
-.prices__cards button {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.prices__select {
+
   width: 250px;
   height: 50px;
   background: #edf2ec;
@@ -349,7 +347,38 @@ h2 span {
   font-size: 20px;
   line-height: 20px;
   color: #000;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  padding-left: 17px;
 
+}
+
+.prices__select:hover {
+  background-color: #c1e698 !important;
+  color: #717171 !important;
+  content: "";
+  transition: 0.1s ease-out;
+}
+
+.prices__select_wrapper {
+  position: relative;
+}
+
+.prices__select_wrapper::after {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #AEA1A1;
+  background-image: url("assets/icones/arrow_1.svg");
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  background-position: center;
+  pointer-events: none;
+  right: 10%;
+  top: 30%;
+  z-index: 1;
 }
 
 .prices__cards_arrow {
@@ -366,13 +395,6 @@ h2 span {
   position: relative;
   width: 10px;
   height: 5px;
-}
-
-.prices__button_cointainer {
-  width: 170px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .prices__flex_2 h2 {
@@ -479,19 +501,36 @@ h2 span {
   outline: none;
 
 }
+
 .contact__select_wrapper {
   position: relative;
 }
+
 .contact__select_wrapper::before {
-position: absolute;
-content: "";
-background-image: url(assets/icones/.svg);
-background-repeat: no-repeat;
-display: block;
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #AEA1A1;
+  background-image: url("assets/icones/arrow_1.svg");
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  background-position: center;
+  pointer-events: none;
+
+  right: 5%;
+  top: 85%;
+  z-index: 1;
+
+}
 
 
-pointer-events: none;
-
+.contact__select:hover {
+  background-color: #c1e698 !important;
+  color: #717171 !important;
+  content: "";
+  transition: 0.1s ease-out;
+  box-shadow: none;
 }
 
 
