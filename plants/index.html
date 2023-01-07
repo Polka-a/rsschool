@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="icon" href="assets/icones/logo.svg" type="image/svg+xml">
+  <script src="script.js"></script>
   <title>Plants</title>
 </head>
 
@@ -162,9 +163,17 @@
       <div class="wrapper__contact">
         <img src="assets/images/contact_woman.png" alt="woman">
         <h2>Contact us</h2>
-    
-          <button class="contact__button_container"> City <img src="assets/icones/accordion_btn.svg" alt="arrow"></button>
-     
+
+        <div class="contact__select_wrapper">
+          <select name="city" id="city" class="contact__select">
+            <option value="">City</option>
+            <option value="minsk">Minsk</option>
+            <option value="moscow">Moscow</option>
+            <option value="brest">Brest</option>
+            <option value="molodechno">Molodechno</option>
+          </select>
+        </div>
+
       </div>
     </section>
   </main>
